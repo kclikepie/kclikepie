@@ -18,6 +18,13 @@ ifconfig
 ```sh
 iperf3 -R -P 4
 ```
+
+### Surveillance
+
+```sh
+watch -n $SEC $target_cmd
+```
+
 ### Set
 
 ```sh
